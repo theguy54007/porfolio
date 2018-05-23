@@ -16,5 +16,7 @@ module ApplicationHelper
     end 
   end  
 
-
+  def copyright_generator 
+   TommyViewTool::Renderer.copyright 'Tommy', 'All right reserved'
+  end
 end
